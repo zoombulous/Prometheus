@@ -1,0 +1,49 @@
+### Functionality:
+
+1. **Prometheus Class**: 
+   - Implements a reinforcement learning agent with the Actor-Critic algorithm.
+   - Performs training using the A2C algorithm.
+   - Runs the training loop for a specified number of episodes.
+   - Provides options for verbose output during training.
+   - Supports comparison with past training results and calculates improvement percentage if past scores are provided.
+   - Includes methods for testing various functionalities of the agent.
+
+2. **Run Training Method**:
+   - Main method for running the training loop.
+   - Accepts parameters such as environment name, number of episodes, verbosity, and past scores.
+   - Trains the agent and plots training scores.
+   - Calculates and displays improvement percentage if past scores are provided.
+
+3. **Test Methods**:
+   - `test_training_process()`: Tests if the agent interacts with the environment and learns over episodes.
+   - `test_plotting()`: Tests the plotting functionality by checking if training scores are plotted correctly.
+   - `test_improvement_percentage()`: Tests the calculation of improvement percentage.
+   - `test_error_handling()`: Tests the error handling mechanism.
+   - `test_automatic_rerun()`: Tests the automatic rerun functionality.
+   - `test_input_parameters()`: Tests the input parameters by changing them and checking if the changes take effect without errors.
+
+4. **Main Script**:
+   - Runs tests using pytest when executed directly.
+   - Initializes an instance of the Prometheus class and runs the tests.
+
+### Associated Documents:
+
+1. **Prometheus.py**: 
+   - Contains the main class `Prometheus` and methods for training, testing, and running tests.
+
+2. **algorithms.py**:
+   - Contains the parameters for various reinforcement learning algorithms used for benchmarking.
+
+3. **history.txt**:
+   - Stores the history of training sessions, including training scores, parameters, and improvement percentages.
+
+4. **README.md**:
+   - Provides an overview of the Prometheus project, including its purpose, usage instructions, and examples.
+
+5. **requirements.txt**:
+   - Lists the dependencies required to run the Prometheus project.
+
+6. **pytest.ini**:
+   - Configuration file for pytest, specifying test options and markers.
+
+Let me know if you need more information or if there's anything else I can assist you with!
