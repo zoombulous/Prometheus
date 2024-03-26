@@ -1,0 +1,9 @@
+2024-03-26: Initial version of Prometheus created.
+2024-03-27: Added Actor-Critic RL functionality.
+2024-03-28: Implemented automatic reruns, error handling, and comparison with past results.
+2024-03-29: Added pytest integration and automated testing.
+2024-03-30: Included hyperparameters in testing and history recording.
+2024-03-31: Integrated algorithms parameters for benchmark testing.
+2024-04-01: Implemented progress bar and additional comments for clarity.
+2024-04-02: Completed comprehensive README file.
+2024-04-03: Verified all files work well together and created final version.
